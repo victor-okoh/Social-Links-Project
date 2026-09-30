@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Heebo", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #141414;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f1f1f;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 35px;
+    height: 70%;
+}
+
+.card-container img {
+    width: 40%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.card-container .name {
+    font-size: 20px;
+}
+
+.card-container .location {
+    font-size: 11px;
+    color: #a2c035;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-container .career {
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+
+.card-container a {
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    text-decoration: none;
+    width: 100%;
+    background-color: #333333;
+    margin-bottom: 10px;
+    padding: 8px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card-container a:hover {
+    background-color: #3a3939;
+}
